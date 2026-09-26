@@ -1,0 +1,953 @@
+Create a premium, highly distinctive, production-quality website for a private dermatologist:
+
+# DR. ABBASSI KHALED
+
+## Dermatologist
+
+This is a professional medical website for a private dermatology practice.
+
+The objective is NOT to create a generic "doctor website".
+
+The objective is to create a **strong visual identity and premium digital experience** that feels specifically designed for a distinguished dermatology practice.
+
+The website should communicate:
+
+* Medical expertise
+* Trust
+* Precision
+* Cleanliness
+* Modern dermatology
+* Personal care
+* Calmness
+* Sophistication
+* Premium private-practice positioning
+
+The design must feel refined, memorable and intentional.
+
+---
+
+# 1. DESIGN CONCEPT
+
+Build the visual identity around:
+
+**SKIN + PRECISION + LIGHT + CLINICAL ELEGANCE**
+
+The design language should combine:
+
+* Modern medical aesthetics
+* Editorial luxury
+* Minimalism
+* Soft natural imagery
+* Clinical precision
+* Sophisticated typography
+* Generous whitespace
+
+The website should feel closer to a **high-end dermatology clinic brand** than a conventional medical website.
+
+Avoid the typical visual language of:
+
+* Generic hospitals
+* Blue medical templates
+* Huge medical crosses
+* Stethoscope illustrations
+* ECG graphics
+* Excessive rounded cards
+* Cheap gradients
+* Excessive glassmorphism
+* Generic stock-template layouts
+* Overly colorful interfaces
+
+Do not make the website look like a template.
+
+---
+
+# 2. VISUAL IDENTITY
+
+Create a custom design system.
+
+Use a restrained premium palette based on:
+
+* Warm ivory / off-white
+* Soft stone / light neutral
+* Deep charcoal
+* Muted botanical green or sage
+* A very subtle warm accent
+
+Do NOT use bright hospital blue as the dominant color.
+
+Colors must be defined as reusable design tokens.
+
+The visual system should remain elegant even if most photography is removed.
+
+---
+
+# 3. TYPOGRAPHY
+
+Typography is extremely important.
+
+Use:
+
+### Display typography
+
+A refined modern serif or elegant editorial display font for major headings.
+
+### Interface/body typography
+
+A clean modern sans-serif with excellent readability.
+
+The combination should produce:
+
+**medical authority + editorial sophistication**
+
+Typography should create visual hierarchy through:
+
+* Size
+* Weight
+* Spacing
+* Line height
+* Controlled contrast
+
+Do not use decorative typography excessively.
+
+---
+
+# 4. LANGUAGE ARCHITECTURE
+
+The website must support:
+
+* Arabic
+* French
+* English
+
+Arabic must use a proper RTL layout.
+
+French and English must use LTR.
+
+Create the language architecture from the beginning rather than adding translation later.
+
+Language switcher:
+
+**العربية | Français | English**
+
+All content must come from a centralized translation structure.
+
+Do not hard-code text directly inside components.
+
+---
+
+# 5. HEADER
+
+Create a highly refined navigation system.
+
+Desktop:
+
+Left:
+**Dr. Abbassi Khaled**
+
+Center/right navigation:
+
+* Home
+* About
+* Dermatology
+* Treatments
+* Clinic
+* Contact
+
+Primary CTA:
+
+**Book an Appointment**
+
+The header should feel minimal and premium.
+
+It may begin transparent over the hero and transition elegantly into a solid background when scrolling.
+
+Do not use a giant navbar.
+
+---
+
+# 6. HERO SECTION
+
+The hero section is the most important visual area.
+
+It must immediately establish the identity of the practice.
+
+Main content:
+
+**Dr. Abbassi Khaled**
+
+**Dermatologist**
+
+Supporting text should be concise and professional.
+
+Primary CTA:
+
+**Book an Appointment**
+
+Secondary CTA:
+
+**Contact the Clinic**
+
+Visual direction:
+
+Use a large professional portrait placeholder for the doctor.
+
+The composition should be editorial rather than a standard centered hero.
+
+Think:
+
+large typography + portrait + whitespace + subtle graphic details.
+
+The hero should feel sophisticated and distinctive without becoming visually complicated.
+
+Possible visual language:
+
+* Soft gradients created from natural tones only
+* Extremely subtle skin-inspired textures
+* Fine lines
+* Soft lighting
+* Asymmetric editorial composition
+* Large negative space
+
+Do not create artificial medical illustrations.
+
+---
+
+# 7. TRUST / PROFESSIONAL INTRODUCTION
+
+Create a subtle section immediately after the hero.
+
+The purpose is to establish professionalism.
+
+Possible structure:
+
+**A medical approach centered on healthy skin**
+
+Short paragraph.
+
+Then 3–4 concise credibility blocks such as:
+
+* Dermatology
+* Personalized Care
+* Skin Health
+* Modern Treatments
+
+IMPORTANT:
+
+Do not invent qualifications, years of experience, memberships, certifications, awards or achievements.
+
+Use editable placeholders where information is not yet available.
+
+---
+
+# 8. ABOUT THE DOCTOR
+
+Create a premium editorial "About" section.
+
+Do not make it look like a traditional biography page.
+
+Use:
+
+* Large portrait
+* Short biography
+* Medical philosophy
+* Professional approach
+
+Possible conceptual copy:
+
+**Every skin is different.
+Every treatment should begin with understanding it.**
+
+This is placeholder copy and must remain easily replaceable.
+
+Create editable fields for:
+
+* Full name
+* Specialty
+* Qualifications
+* Experience
+* Biography
+* Areas of expertise
+
+No factual information should be fabricated.
+
+---
+
+# 9. DERMATOLOGY SERVICES
+
+Create the main dermatology services section.
+
+This must NOT be a boring collection of identical cards.
+
+Use a more editorial, premium presentation.
+
+Possible categories:
+
+### Medical Dermatology
+
+Examples can include:
+
+* Acne
+* Eczema
+* Psoriasis
+* Pigmentation
+* Hair and scalp concerns
+* Skin conditions
+
+### Aesthetic Dermatology
+
+Examples can include:
+
+* Skin rejuvenation
+* Pigmentation treatments
+* Cosmetic dermatology
+
+### Laser / Advanced Treatments
+
+Examples can include:
+
+* Laser treatments
+* Hair removal
+* Skin resurfacing
+* Other technologies
+
+IMPORTANT:
+
+These are structural examples only.
+
+Do not claim that the doctor provides a specific treatment unless I provide that information.
+
+Build all services from editable data.
+
+Each service should support:
+
+* Name
+* Description
+* Image
+* Category
+* Optional detailed page
+* Optional CTA
+
+---
+
+# 10. FEATURED TREATMENT SECTION
+
+Create a visually striking section for highlighting one important dermatology service or technology.
+
+Large image on one side.
+
+Text on the other.
+
+Example structure:
+
+**Advanced Dermatology Care**
+
+Short explanation.
+
+CTA:
+
+**Discover the Treatment**
+
+This section should be reusable for different treatments.
+
+The featured treatment must be controlled through data, not hard-coded into the component.
+
+---
+
+# 11. THE CLINIC
+
+Create a premium clinic-information section.
+
+Include:
+
+### Address
+
+[ADDRESS TO BE ADDED]
+
+### Phone
+
+[PHONE TO BE ADDED]
+
+### WhatsApp
+
+[WHATSAPP TO BE ADDED]
+
+### Opening Hours
+
+[OPENING HOURS TO BE ADDED]
+
+### Location
+
+Interactive map placeholder.
+
+CTA:
+
+**Get Directions**
+
+The map implementation should later support Google Maps or another map provider.
+
+Do not invent the location.
+
+---
+
+# 12. OPENING HOURS
+
+Create a professionally designed opening-hours component.
+
+Display:
+
+Saturday
+[TO BE ADDED]
+
+Sunday
+[TO BE ADDED]
+
+Monday
+[TO BE ADDED]
+
+Tuesday
+[TO BE ADDED]
+
+Wednesday
+[TO BE ADDED]
+
+Thursday
+[TO BE ADDED]
+
+Friday
+[TO BE ADDED]
+
+The schedule must come from centralized configuration.
+
+Do not hard-code hours inside the page.
+
+---
+
+# 13. APPOINTMENT EXPERIENCE
+
+Appointment booking must be one of the main conversion points.
+
+Create a beautiful appointment section.
+
+Fields:
+
+* Full Name
+* Phone Number
+* Preferred Date
+* Preferred Time
+* Reason for Visit
+* Optional Message
+
+CTA:
+
+**Request an Appointment**
+
+Important:
+
+The website must clearly state that submitting the form is a **request**, not necessarily an immediate confirmation.
+
+Example:
+
+"Your appointment request will be reviewed by the clinic. The clinic will contact you to confirm the appointment."
+
+Prepare the architecture so the appointment system can later connect to:
+
+* WhatsApp
+* Email
+* Backend
+* Database
+* Calendar system
+
+Do not pretend that backend confirmation exists if it is not implemented.
+
+---
+
+# 14. QUICK CONTACT ACTIONS
+
+On mobile, provide an elegant persistent action bar.
+
+Actions:
+
+**Call**
+**WhatsApp**
+**Appointment**
+**Location**
+
+This must be subtle and premium rather than intrusive.
+
+On desktop, use discreet floating actions or integrated CTAs.
+
+All phone and WhatsApp information must come from centralized configuration.
+
+---
+
+# 15. PATIENT EDUCATION
+
+Create a section:
+
+**Dermatology Journal**
+
+This will eventually contain educational content.
+
+Possible topics:
+
+* Acne
+* Hair loss
+* Pigmentation
+* Skin care
+* Children's dermatology
+* Skin health
+* Dermatology treatments
+
+The purpose is educational and professional.
+
+Create the UI so content can later be connected to a CMS or database.
+
+---
+
+# 16. IMAGE DIRECTION
+
+Photography is critical to the identity.
+
+The design should support:
+
+* Professional doctor portrait
+* Clinic photography
+* Dermatology treatment photography
+* Skin-detail photography
+* Clean medical environments
+
+Photography style:
+
+* Soft natural lighting
+* High-end editorial photography
+* Clean composition
+* Neutral backgrounds
+* Natural skin tones
+
+Avoid:
+
+* Fake-looking AI doctors
+* Typical stock-photo medical scenes
+* Exaggerated smiles
+* Overly dramatic beauty photography
+
+Real images provided later must fit naturally into the design.
+
+---
+
+# 17. MICRO-INTERACTIONS
+
+Use subtle premium motion.
+
+Examples:
+
+* Fade/slide reveal
+* Image reveal
+* Gentle hover movement
+* Smooth button transitions
+* Navigation transition
+* Subtle section entrance animation
+
+Animation must communicate polish, not decoration.
+
+Avoid:
+
+* Excessive parallax
+* Large motion effects
+* Constant floating objects
+* Long animations
+* Distracting effects
+
+Respect reduced-motion accessibility preferences.
+
+---
+
+# 18. RESPONSIVE DESIGN
+
+Design and test:
+
+* 375px
+* 390px
+* 430px
+* 768px
+* 1024px
+* 1280px
+* 1440px
+* 1920px
+
+Mobile must not be a compressed desktop version.
+
+The mobile experience should be intentionally designed.
+
+Special attention:
+
+* Arabic RTL
+* Typography
+* Image cropping
+* Buttons
+* Appointment form
+* Navigation
+* Floating contact actions
+
+No horizontal overflow.
+
+No broken layouts.
+
+---
+
+# 19. ARABIC RTL QUALITY
+
+Arabic is a first-class interface.
+
+Do not simply flip the page.
+
+Ensure:
+
+* Correct text alignment
+* Correct spacing
+* Correct icon direction
+* Correct navigation order
+* Correct forms
+* Correct buttons
+* Correct typography
+* Correct image composition
+* Correct directional animations
+
+French and English must remain fully LTR.
+
+Test the entire website in all three languages.
+
+---
+
+# 20. FOOTER
+
+Create a sophisticated footer containing:
+
+**Dr. Abbassi Khaled**
+
+Dermatologist
+
+Navigation
+
+Dermatology
+
+Treatments
+
+Appointment
+
+Clinic
+
+Contact
+
+Phone
+
+WhatsApp
+
+Address
+
+Opening Hours
+
+Social Media
+
+Language switcher
+
+Privacy Policy
+
+Medical Disclaimer
+
+Copyright
+
+---
+
+# 21. SEO
+
+Implement proper SEO foundations.
+
+Include:
+
+* Semantic HTML
+* Correct H1/H2/H3 structure
+* Meta title
+* Meta description
+* Open Graph metadata
+* Local SEO foundations
+* Medical practice structured data where appropriate
+* Multilingual metadata
+
+Use only verified information.
+
+Do not create fake credentials or medical claims for SEO.
+
+---
+
+# 22. ACCESSIBILITY
+
+Follow modern accessibility standards.
+
+Include:
+
+* Proper color contrast
+* Keyboard navigation
+* Visible focus states
+* Semantic HTML
+* Accessible forms
+* Correct labels
+* Image alt text
+* RTL accessibility support
+* Reduced motion support
+
+Accessibility should be built into the design rather than added later.
+
+---
+
+# 23. PERFORMANCE
+
+The site must load quickly.
+
+Optimize:
+
+* Images
+* Fonts
+* JavaScript
+* CSS
+* Lazy loading
+* Component loading
+
+Do not add heavy libraries unnecessarily.
+
+Do not sacrifice performance for visual effects.
+
+---
+
+# 24. TECHNICAL STACK
+
+Use a modern maintainable frontend stack.
+
+Preferred:
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+
+Use clean reusable components.
+
+Recommended architecture:
+
+src/
+components/
+sections/
+layouts/
+pages/
+data/
+config/
+i18n/
+assets/
+styles/
+services/
+types/
+
+---
+
+# 25. CENTRALIZED CLINIC CONFIGURATION
+
+All real clinic information must be centralized.
+
+Create something conceptually similar to:
+
+clinicConfig = {
+doctorName,
+specialty,
+phone,
+whatsapp,
+address,
+mapUrl,
+openingHours,
+socialLinks,
+appointmentSettings,
+images
+}
+
+Do NOT scatter this information across components.
+
+I will provide the actual information later.
+
+When I provide new information, I should be able to update it in one place.
+
+---
+
+# 26. CONTENT PLACEHOLDERS
+
+For all information not yet provided, use professional placeholders:
+
+[DOCTOR BIO TO BE ADDED]
+
+[QUALIFICATIONS TO BE ADDED]
+
+[PHONE TO BE ADDED]
+
+[WHATSAPP TO BE ADDED]
+
+[ADDRESS TO BE ADDED]
+
+[OPENING HOURS TO BE ADDED]
+
+[FACEBOOK LINK TO BE ADDED]
+
+[INSTAGRAM LINK TO BE ADDED]
+
+[DOCTOR PHOTO TO BE ADDED]
+
+[CLINIC PHOTOS TO BE ADDED]
+
+Do not invent real information.
+
+---
+
+# 27. DESIGN QUALITY TEST
+
+Before finishing, evaluate the website with this question:
+
+**"Does this look like a generic doctor website?"**
+
+If yes, redesign it.
+
+The final interface should have a recognizable identity.
+
+A visitor should feel that this is the website of a carefully positioned dermatology practice, not a pre-made template with a doctor's name inserted into it.
+
+The design should communicate:
+
+**Clinical Precision**
++
+**Skin Expertise**
++
+**Modern Elegance**
++
+**Human Care**
+
+---
+
+# 28. IMPORTANT: DO NOT OVERDESIGN
+
+Premium does NOT mean adding more elements.
+
+Use restraint.
+
+Prioritize:
+
+* Typography
+* Composition
+* Spacing
+* Photography
+* Hierarchy
+* Consistency
+* Interaction quality
+
+Every element must have a purpose.
+
+---
+
+# 29. IMPLEMENTATION WORKFLOW
+
+Do not immediately generate the entire project blindly.
+
+Follow this sequence:
+
+### Phase 1 — Visual Direction
+
+Define:
+
+* Color system
+* Typography
+* Grid
+* Spacing
+* Buttons
+* Cards
+* Image treatment
+* Navigation
+* Motion language
+
+### Phase 2 — Design System
+
+Create reusable tokens and components.
+
+### Phase 3 — Page Architecture
+
+Build:
+
+* Home
+* About
+* Dermatology
+* Treatments
+* Clinic
+* Contact / Appointment
+
+### Phase 4 — Responsive Implementation
+
+Desktop + tablet + mobile.
+
+### Phase 5 — Multilingual
+
+Arabic RTL + French LTR + English LTR.
+
+### Phase 6 — Functional UX
+
+Appointment form, contact actions, map, navigation.
+
+### Phase 7 — QA
+
+Test:
+
+* Responsiveness
+* RTL
+* LTR
+* Navigation
+* Forms
+* Buttons
+* Links
+* Accessibility
+* Performance
+* Overflow
+* Mobile usability
+
+### Phase 8 — Visual Refinement
+
+Perform a final design pass.
+
+Remove anything that makes the website look generic, cluttered, overly decorative or template-based.
+
+---
+
+# FINAL REQUIREMENT
+
+Build a complete, premium dermatology website for:
+
+**Dr. Abbassi Khaled — Dermatologist**
+
+The website must already look highly professional before I provide the final factual information.
+
+Use placeholders for all missing real-world data.
+
+The design must be **distinctive, sophisticated, medical, modern and memorable**.
+
+Do not create a generic medical template.
+
+Do not invent factual information.
+
+Do not wait for additional information to build the structure.
+
+Build the complete front-end architecture now so I can later provide the doctor's real:
+
+* Phone number
+* WhatsApp
+* Address
+* Opening hours
+* Qualifications
+* Biography
+* Services
+* Social links
+* Photos
+* Map location
+
+and replace the placeholders without redesigning the website.

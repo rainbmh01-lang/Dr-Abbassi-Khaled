@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Dr. Abbassi Khaled Dermatology"
+description = "A premium multilingual website for Dr. Abbassi Khaled's private dermatology practice, with RTL Arabic support, appointment requests, clinic information, and an editorial medical experience."
+version = "1.0.0"
+id = "artifacts/abbassi-dermatology"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 25642
+
+[services.development]
+run = "pnpm --filter @workspace/abbassi-dermatology run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/abbassi-dermatology", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/abbassi-dermatology/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "25642"
+BASE_PATH = "/"
