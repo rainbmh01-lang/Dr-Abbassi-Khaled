@@ -198,7 +198,8 @@
 
 .section { max-width: 1280px; margin: 0 auto; padding: 4.5rem 2rem 5.5rem; }
 #practice { padding-top: 2rem; padding-bottom: 2.2rem; }
-#about { padding-top: 2.8rem; }
+#about { padding-top: 2.8rem; padding-bottom: 2.5rem; }
+#services { padding-top: 2rem; }
 #feature { padding-top: 3.5rem; padding-bottom: 3.5rem; }
 #clinic { padding-top: 2rem; padding-bottom: 2rem; }
 #contact { padding-top: 2rem; }
@@ -473,7 +474,8 @@
   .scroll-mark { display: none; }
   .section { padding: 3.5rem 1.15rem; }
   #practice { padding-top: 1.5rem; padding-bottom: 1.5rem; }
-  #about { padding-top: 1.8rem; }
+  #about { padding-top: 1.8rem; padding-bottom: 1.8rem; }
+  #services { padding-top: 1.5rem; }
   #feature { padding-top: 2rem; padding-bottom: 2rem; }
   #clinic { padding-top: 1.5rem; padding-bottom: 1.5rem; }
   #contact { padding-top: 1.5rem; }
