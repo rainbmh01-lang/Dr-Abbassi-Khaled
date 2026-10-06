@@ -475,7 +475,9 @@
   #feature { padding-top: 2rem; padding-bottom: 2rem; }
   #clinic { padding-top: 1.5rem; padding-bottom: 1.5rem; }
   #contact { padding-top: 1.5rem; }
-  .section-heading { display: block; margin-bottom: 2.2rem; }
+  .section-heading { display: block; margin-bottom: 2rem; }
+  .section-title { font-size: clamp(2.3rem, 9vw, 3.2rem); line-height: 1.05; letter-spacing: -.025em; }
+  .manifesto-lead { font-size: clamp(1.45rem, 5.5vw, 1.95rem); line-height: 1.25; letter-spacing: normal; }
   .section-intro { margin-top: 1.3rem; }
   .doctor-portrait { min-height: 320px; }
   .doctor-facts { grid-template-columns: 1fr; }
