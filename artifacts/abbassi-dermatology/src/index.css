@@ -277,12 +277,12 @@
 .journal-link:hover { color: hsl(var(--accent-foreground)); }
 
 .approach-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid hsl(var(--border)); }
-.approach-item { padding: 2rem 2rem 1rem 0; border-right: 1px solid hsl(var(--border)); min-height: 250px; }
-.approach-item + .approach-item { padding-left: 2rem; }
+.approach-item { padding: 1.5rem 1.75rem .75rem 0; border-right: 1px solid hsl(var(--border)); min-height: 200px; }
+.approach-item + .approach-item { padding-left: 1.75rem; }
 .approach-item:last-child { border-right: 0; }
 .approach-index { color: hsl(var(--accent)); font-family: var(--app-font-mono); font-size: .7rem; }
-.approach-item h3 { margin: 2.8rem 0 .8rem; font-size: 1.1rem; letter-spacing: -.03em; }
-.approach-item p { max-width: 260px; margin: 0; color: hsl(var(--muted-foreground)); font-size: .83rem; line-height: 1.7; }
+.approach-item h3 { margin: 1.4rem 0 .5rem; font-size: 1.1rem; letter-spacing: -.03em; }
+.approach-item p { max-width: 260px; margin: 0; color: hsl(var(--muted-foreground)); font-size: .83rem; line-height: 1.6; }
 
 .placeholder-note { display: inline-flex; gap: .5rem; align-items: center; color: hsl(var(--muted-foreground)); font-family: var(--app-font-mono); font-size: .58rem; letter-spacing: .05em; text-transform: uppercase; }
 .placeholder-note::before { content: ""; width: .45rem; height: .45rem; border-radius: 50%; background: hsl(var(--accent)); }
@@ -485,8 +485,8 @@
   .journal-card { min-height: 220px; }
   .feature-copy { padding: 2rem 1.35rem 2.4rem; }
   .approach-grid { grid-template-columns: 1fr; }
-  .approach-item, .approach-item + .approach-item { min-height: auto; padding: 1.5rem 0; border-right: 0; border-bottom: 1px solid hsl(var(--border)); }
-  .approach-item h3 { margin-top: 1.5rem; }
+  .approach-item, .approach-item + .approach-item { min-height: auto; padding: .85rem 0 .95rem; border-right: 0; border-bottom: 1px solid hsl(var(--border)); }
+  .approach-item h3 { margin: .4rem 0 .4rem; }
   .approach-item:last-child { border-bottom: 0; }
   .form-grid { grid-template-columns: 1fr; }
   .field.full { grid-column: auto; }
