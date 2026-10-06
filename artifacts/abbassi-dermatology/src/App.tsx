@@ -640,21 +640,6 @@ function ContactSection({ copy }: { copy: Copy }) {
           <div>
             <div className="section-kicker">{copy.contact.kicker}</div>
             <h2 className="section-title text-balance">{copy.contact.title}</h2>
-            <p className="section-intro">{copy.contact.intro}</p>
-            <div className="contact-list">
-              <div className="contact-row">
-                <MapPin size={17} />
-                <div><span className="contact-label">{copy.contact.locationLabel}</span><span className="contact-value">{copy.contact.location}</span></div>
-              </div>
-              <div className="contact-row">
-                <Clock3 size={17} />
-                <div><span className="contact-label">{copy.contact.availabilityLabel}</span><span className="contact-value">{copy.contact.availability}</span></div>
-              </div>
-              <div className="contact-row">
-                <Phone size={17} />
-                <div><span className="contact-label">{copy.contact.emailLabel}</span><span className="contact-value">{copy.contact.emailValue}</span></div>
-              </div>
-            </div>
           </div>
           <AppointmentForm copy={copy} />
         </div>
