@@ -27,10 +27,9 @@ export const translations = {
       intro: 'Dr. Abbassi Khaled is the name at the centre of this private dermatology practice. The profile below is intentionally reserved for confirmed information.',
       note: 'Add a short, approved biography here when ready. No qualifications, affiliations, location, or years of experience are assumed in this presentation.',
       facts: [
-        { label: 'Professional profile', value: 'Editable placeholder — to be confirmed' },
-        { label: 'Areas of expertise', value: 'Editable placeholder — to be confirmed' },
-        { label: 'Languages', value: 'Editable placeholder — to be confirmed' },
-        { label: 'Professional registration', value: 'Editable placeholder — to be confirmed' },
+        { label: 'Professional profile', value: 'Dermatologist' },
+        { label: 'Professional registration', value: 'Specialist in Dermatology' },
+        { label: 'Areas of expertise', value: 'Dermatology · Aesthetic Medicine · Laser' },
       ],
     },
     services: {
@@ -163,9 +162,8 @@ export const translations = {
       note: '',
       facts: [
         { label: 'Profil professionnel', value: 'Dermatologue' },
-        { label: 'Domaines d’expertise', value: 'Dermatologie · Médecine esthétique · Laser' },
-        { label: 'Langues', value: 'Arabe · Français' },
         { label: 'Inscription professionnelle', value: 'Médecin spécialiste en dermatologie' },
+        { label: 'Domaines d’expertise', value: 'Dermatologie · Médecine esthétique · Laser' },
       ],
     },
     services: {
@@ -332,10 +330,9 @@ export const translations = {
       intro: 'الدكتور عباسي خالد هو محور هذه العيادة الخاصة للأمراض الجلدية. يظل التعريف أدناه مخصصاً للمعلومات المؤكدة.',
       note: 'أضف سيرة قصيرة معتمدة هنا عند الجاهزية. لم تتم إضافة أي مؤهلات أو انتماءات أو موقع أو سنوات خبرة في هذه الصفحة.',
       facts: [
-        { label: 'الملف المهني', value: 'خانة قابلة للتعديل — قيد التأكيد' },
-        { label: 'مجالات الخبرة', value: 'خانة قابلة للتعديل — قيد التأكيد' },
-        { label: 'اللغات', value: 'خانة قابلة للتعديل — قيد التأكيد' },
-        { label: 'التسجيل المهني', value: 'خانة قابلة للتعديل — قيد التأكيد' },
+        { label: 'الصفة المهنية', value: 'طبيب أمراض جلدية' },
+        { label: 'التسجيل المهني', value: 'طبيب أخصائي في الأمراض الجلدية' },
+        { label: 'مجالات التخصص', value: 'أمراض جلدية · طب تجميلي · ليزر' },
       ],
     },
     services: {
