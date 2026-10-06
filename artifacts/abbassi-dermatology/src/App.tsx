@@ -83,7 +83,6 @@ function Header({ copy }: { copy: Copy }) {
           <a className="nav-link" href="#practice" onClick={close} data-testid="link-practice">{copy.nav.practice}</a>
           <a className="nav-link" href="#about" onClick={close} data-testid="link-about">{copy.nav.about}</a>
           <a className="nav-link" href="#services" onClick={close} data-testid="link-services">{copy.nav.services}</a>
-          <a className="nav-link" href="#approach" onClick={close} data-testid="link-approach">{copy.nav.approach}</a>
           <a className="nav-link" href="#feature" onClick={close} data-testid="link-feature">{copy.nav.feature}</a>
           <a className="nav-link" href="#clinic" onClick={close} data-testid="link-clinic">{copy.nav.clinic}</a>
           <a className="nav-link" href="#contact" onClick={close} data-testid="link-contact">{copy.nav.contact}</a>
@@ -108,7 +107,7 @@ function Hero({ copy }: { copy: Copy }) {
         <p className="hero-copy text-balance" data-testid="text-hero-copy">{copy.hero.copy}</p>
         <div className="hero-cta-row">
           <a className="button-primary" href="#appointment" data-testid="link-hero-appointment">{copy.hero.primary}<ArrowUpRight size={16} /></a>
-          <a className="button-quiet" href="#approach" data-testid="link-hero-approach">{copy.hero.secondary}<ArrowDown size={14} /></a>
+          <a className="button-quiet" href="#feature" data-testid="link-hero-feature">{copy.hero.secondary}<ArrowDown size={14} /></a>
         </div>
         <div className="hero-note">
           <span><ShieldCheck size={14} /> {copy.hero.noteOne}</span>
@@ -235,53 +234,26 @@ function ServicesSection({ copy }: { copy: Copy }) {
 
 function FeatureSection({ copy }: { copy: Copy }) {
   return (
-    <section className="section" id="feature" data-testid="section-feature">
-      <Reveal>
-        <div className="feature-panel">
-          <div className="feature-art" aria-label="Technologie laser au cabinet">
-            <img
-              src="/laser-treatment.jpg"
-              alt="Plateau technique laser — Cabinet Dr. Abbassi Khaled"
-              className="feature-image"
-            />
-            <div className="feature-art-label">{copy.feature.label}</div>
-          </div>
-          <div className="feature-copy">
-            <div className="section-kicker">{copy.feature.kicker}</div>
-            <h3>{copy.feature.title}</h3>
-            <p>{copy.feature.body}</p>
-            <span className="feature-subtext">{copy.feature.note}</span>
-          </div>
-        </div>
-      </Reveal>
-    </section>
-  );
-}
-
-function ApproachSection({ copy }: { copy: Copy }) {
-  return (
-    <section className="section section-tinted" id="approach" data-testid="section-approach">
+    <section className="section section-tinted" id="feature" data-testid="section-feature">
       <div className="section-inner">
         <Reveal>
-          <div className="section-heading">
-            <div>
-              <div className="section-kicker">{copy.approach.kicker}</div>
-              <h2 className="section-title text-balance">{copy.approach.title}</h2>
+          <div className="feature-panel">
+            <div className="feature-art" aria-label="Technologie laser au cabinet">
+              <img
+                src="/laser-treatment.jpg"
+                alt="Plateau technique laser — Cabinet Dr. Abbassi Khaled"
+                className="feature-image"
+              />
+              <div className="feature-art-label">{copy.feature.label}</div>
             </div>
-            <p className="section-intro">{copy.approach.intro}</p>
+            <div className="feature-copy">
+              <div className="section-kicker">{copy.feature.kicker}</div>
+              <h3>{copy.feature.title}</h3>
+              <p>{copy.feature.body}</p>
+              <span className="feature-subtext">{copy.feature.note}</span>
+            </div>
           </div>
         </Reveal>
-        <StaggerContainer className="approach-grid">
-          {copy.approach.items.map((item) => (
-            <StaggerItem key={item.index}>
-              <article className="approach-item" data-testid={`card-approach-${item.index}`}>
-                <div className="approach-index">{item.index}</div>
-                <h3>{item.title}</h3>
-                <p>{item.body}</p>
-              </article>
-            </StaggerItem>
-          ))}
-        </StaggerContainer>
       </div>
     </section>
   );
@@ -698,7 +670,6 @@ function Home() {
         <PracticeSection copy={copy} />
         <AboutSection copy={copy} />
         <ServicesSection copy={copy} />
-        <ApproachSection copy={copy} />
         <FeatureSection copy={copy} />
         <ClinicSection copy={copy} />
         <ContactSection copy={copy} />
