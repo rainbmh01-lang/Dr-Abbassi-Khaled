@@ -85,7 +85,6 @@ function Header({ copy }: { copy: Copy }) {
           <a className="nav-link" href="#services" onClick={close} data-testid="link-services">{copy.nav.services}</a>
           <a className="nav-link" href="#approach" onClick={close} data-testid="link-approach">{copy.nav.approach}</a>
           <a className="nav-link" href="#feature" onClick={close} data-testid="link-feature">{copy.nav.feature}</a>
-          <a className="nav-link" href="#journal" onClick={close} data-testid="link-journal">{copy.nav.journal}</a>
           <a className="nav-link" href="#clinic" onClick={close} data-testid="link-clinic">{copy.nav.clinic}</a>
           <a className="nav-link" href="#contact" onClick={close} data-testid="link-contact">{copy.nav.contact}</a>
         </nav>
@@ -288,37 +287,6 @@ function ApproachSection({ copy }: { copy: Copy }) {
   );
 }
 
-function JournalSection({ copy }: { copy: Copy }) {
-  return (
-    <section className="section section-tinted" id="journal" data-testid="section-journal">
-      <div className="section-inner">
-        <Reveal>
-          <div className="section-heading">
-            <div>
-              <div className="section-kicker">{copy.journal.kicker}</div>
-              <h2 className="section-title text-balance">{copy.journal.title}</h2>
-            </div>
-            <p className="section-intro">{copy.journal.intro}</p>
-          </div>
-        </Reveal>
-        <StaggerContainer className="journal-grid">
-          {copy.journal.items.map((item) => (
-            <StaggerItem key={item.date}>
-              <article className="journal-card" data-testid={`card-journal-${item.date}`}>
-                <div>
-                  <div className="journal-meta"><span>{item.date}</span><span>{item.tag}</span></div>
-                  <h3>{item.title}</h3>
-                  <p>{item.body}</p>
-                </div>
-                <a href="#appointment" className="journal-link" data-testid={`link-journal-${item.date}`}>{copy.journal.read}<ArrowUpRight size={14} /></a>
-              </article>
-            </StaggerItem>
-          ))}
-        </StaggerContainer>
-      </div>
-    </section>
-  );
-}
 
 function OpeningHours({ copy }: { copy: Copy }) {
   return (
@@ -747,7 +715,6 @@ function Home() {
         <ServicesSection copy={copy} />
         <ApproachSection copy={copy} />
         <FeatureSection copy={copy} />
-        <JournalSection copy={copy} />
         <ClinicSection copy={copy} />
         <ContactSection copy={copy} />
       </main>
