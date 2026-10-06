@@ -197,7 +197,8 @@
 .scroll-mark::after { content: ""; height: 3.8rem; width: 1px; background: hsl(var(--accent)); }
 
 .section { max-width: 1280px; margin: 0 auto; padding: 4.5rem 2rem 5.5rem; }
-#practice { padding-top: 2rem; }
+#practice { padding-top: 2rem; padding-bottom: 2.2rem; }
+#about { padding-top: 2.8rem; }
 #feature { padding-top: 3.5rem; padding-bottom: 3.5rem; }
 #clinic { padding-top: 2rem; padding-bottom: 2rem; }
 #contact { padding-top: 2rem; }
@@ -471,7 +472,8 @@
   .art-frame { inset: 0 0 1.5rem 1.1rem; }
   .scroll-mark { display: none; }
   .section { padding: 3.5rem 1.15rem; }
-  #practice { padding-top: 1.5rem; }
+  #practice { padding-top: 1.5rem; padding-bottom: 1.5rem; }
+  #about { padding-top: 1.8rem; }
   #feature { padding-top: 2rem; padding-bottom: 2rem; }
   #clinic { padding-top: 1.5rem; padding-bottom: 1.5rem; }
   #contact { padding-top: 1.5rem; }
