@@ -198,6 +198,8 @@
 
 .section { max-width: 1280px; margin: 0 auto; padding: 4.5rem 2rem 5.5rem; }
 #practice { padding-top: 2rem; }
+#clinic { padding-bottom: 2rem; }
+#contact { padding-top: 2rem; }
 .section-tinted { max-width: none; background: hsl(var(--secondary) / .6); }
 .section-inner { max-width: 1280px; margin: 0 auto; }
 .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 2rem; margin-bottom: 3rem; }
@@ -469,6 +471,8 @@
   .scroll-mark { display: none; }
   .section { padding: 3.5rem 1.15rem; }
   #practice { padding-top: 1.5rem; }
+  #clinic { padding-bottom: 1.5rem; }
+  #contact { padding-top: 1.5rem; }
   .section-heading { display: block; margin-bottom: 2.2rem; }
   .section-intro { margin-top: 1.3rem; }
   .doctor-portrait { min-height: 320px; }
